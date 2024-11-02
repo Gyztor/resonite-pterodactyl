@@ -1,25 +1,24 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Neos-Metaverse/JSONSchemas/main/schemas/NeosHeadlessConfig.schema.json",
+  "$schema": "https://raw.githubusercontent.com/Yellow-Dog-Man/JSONSchemas/main/schemas/HeadlessConfig.schema.json",
   "allowedUrlHosts": [
-    "localhost",
-    "ad-sessions.resonite.boltwolf.net"
+    "localhost"
   ],
   "comment": "",
-  "loginCredential": "LOGIN_USERNAME",
-  "loginPassword": "LOGIN_PASSWORD",
-  "maxConcurrentAssetTransfers": 8,
+  "loginCredential": "HEADLESS_EMAIL",
+  "loginPassword": "HEADLESS_PASS",
+  "maxConcurrentAssetTransfers": CONCURRENT_TRANSFERS,
   "startWorlds": [
     {
-      "accessLevel": "RegisteredUsers",
+      "accessLevel": "ACCESS_LEVEL",
       "allowUserCloudVariable": "",
       "autoRecover": true,
       "autoSleep": false,
       "autosaveInterval": -1,
-      "awayKickMinutes": 2,
+      "awayKickMinutes": 5,
       "customSessionId": "SESSION_ID",
-      "defaultUserRoles": {},
+      "defaultUserRoles": DEFAULT_USER_ROLES,
       "denyUserCloudVariable": null,
-      "description": "awoo",
+      "description": "SESSION_DESCRIPTION",
       "forcedRestartInterval": -1,
       "hideFromPublicListing": 1,
       "idleRestartInterval": 21600,
@@ -30,13 +29,13 @@
       "maxUsers": 24,
       "mobileFriendly": false,
       "requiredUserJoinCloudVariable": null,
-      "requiredUserJoinCloudVariableDenyMessage": "Verification required to join, see this community's Discord",
+      "requiredUserJoinCloudVariableDenyMessage": "REQUIRED_USER_DENY_MESSAGE",
       "roleCloudVariable": "",
       "saveOnExit": false,
       "sessionName": "SESSION_NAME",
     }
   ],
-  "tickRate": 60,
+  "tickRate": TICKRATE,
   "universeId": null,
   "usernameOverride": null
 }
