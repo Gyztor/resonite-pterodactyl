@@ -72,7 +72,7 @@
             "name": "Access Level",
             "description": "",
             "env_variable": "ACCESS_LEVEL",
-            "default_value": "",
+            "default_value": "RegisteredUsers",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:20",
@@ -195,7 +195,7 @@
             "default_value": "",
             "user_viewable": true,
             "user_editable": true,
-            "rules": "json|max:800|nullable",
+            "rules": "json|max:8000|nullable",
             "field_type": "text"
         },
         {
