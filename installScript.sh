@@ -18,6 +18,6 @@ export STEAMAPPDIR=Steam/steamapps/common/Resonite/Headless
 
 mkdir -p ${STEAMAPPDIR}/Config
 
-curl -sSL -o ${STEAMAPPDIR}/Config/Config.json "https://raw.githubusercontent.com/Resonite-Community-Projects/resonite-pterodactyl/master/Config.json"
+curl -sSL -o ${STEAMAPPDIR}/Config/Config.json "https://raw.githubusercontent.com/Gyztor/resonite-pterodactyl/master/Config.json"
 
 echo "done"
