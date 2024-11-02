@@ -169,6 +169,16 @@
             "field_type": "text"
         },
         {
+            "name": "Tick Rate",
+            "description": "",
+            "env_variable": "TICKRATE",
+            "default_value": "60",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|integer|max:120",
+            "field_type": "text"
+        },
+        {
             "name": "AFK Timeout",
             "description": "",
             "env_variable": "AFKTIMEOUT",
