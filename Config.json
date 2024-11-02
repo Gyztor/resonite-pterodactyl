@@ -14,7 +14,7 @@
       "autoRecover": true,
       "autoSleep": false,
       "autosaveInterval": -1,
-      "awayKickMinutes": 5,
+      "awayKickMinutes": AFKTIMEOUT,
       "customSessionId": "SESSION_ID",
       "defaultUserRoles": DEFAULT_USER_ROLES,
       "denyUserCloudVariable": null,
