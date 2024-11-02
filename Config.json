@@ -26,7 +26,7 @@
       "keepOriginalRoles": false,
       "loadWorldPresetName": "SpaceWorld",
       "loadWorldURL": "START_WORLD_URL",
-      "maxUsers": 24,
+      "maxUsers": MAXUSERS,
       "mobileFriendly": false,
       "requiredUserJoinCloudVariable": null,
       "requiredUserJoinCloudVariableDenyMessage": "REQUIRED_USER_DENY_MESSAGE",
